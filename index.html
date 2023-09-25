@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinando JS</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 style="margin-left: 12px;">Calculadora</h1>
+
+    <input id="num1" type="number" placeholder="Numero" class="num1">
+    <br>
+    <select name="Elemento" id="operacao">
+        <option value="" selected>Selecione o operador</option>
+        <option id="soma" value="soma"> Soma + </option>
+        <option id="subtracao" value="subtracao"> Subtração - </option>
+        <option id="divisao" value="divisao"> Divisão / </option>
+        <option id="multiplicacao" value="multiplicacao"> Multiplicação *<option>
+    </select>
+    <br>
+    <input id="num2" type="number" placeholder="Numero" class="num2">
+
+    <br>
+    <button onclick="calcular()" id="calcular">Calcular</button>
+    <br><br>
+    <button onclick="apagarcampos()" id="apagarcampos">Limpar campos</button>
+    <br><br>
+    <p>Resultado : </p>
+    <p id="resultado" class="resultado"> </p>
+
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+
+</html>
