@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - JS</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/calculadora.png" type="favicon">
+</head>
+
+<body>
+    <main>
+        <h1 id="titulo">Calculadora</h1>
+        <input id="num1" type="number" placeholder="Numero" class="num1">
+        <select id="options">
+            <option value="selecionar">Selecione o operador</option>
+            <option value="soma">Soma</option>
+            <option value="subtracao">Subtração</option>
+            <option value="multiplicacao">Multiplicação</option>
+            <option value="divisao">Divisão</option>
+        </select>
+        <input id="num2" type="number" placeholder="Numero" class="num2">
+        <button onclick="calcular()" id="calcular" class="animated-button">Calcular</button>
+        <button onclick="apagarcampos()" id="apagarcampos" class="animated-button">Limpar campos</button>
+    </main>
+    <div id="resultado"></div>
+    <div class="fot">
+        <footer>
+            <p>Redes Sociais:</p>
+            <a href="https://github.com/lucas-sousa-rocha" target="_blank"><img src="img/github.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/lucas-sousa-da-rocha/" target="_blank"><img src="img/linkedin.png" alt=""></a>
+        </footer>
+</div>
+
+</body>
+
+</html>

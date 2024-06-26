@@ -1,0 +1,164 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to right, #042326, #0A3A40, #0F5959, #1D7373, #107361)
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 450px;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(204, 21, 21);
+    /* margin-left: 700px; */
+    margin: 0 auto;
+    /* margin-top: 100px; */
+}
+
+input {
+    border-radius: 4px;
+    display: flex;
+    border-color: rgb(251, 0, 0);
+    background-color: rgb(244, 244, 244);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+footer {
+    /* margin-top: 300px; */
+    margin-top: 50px;
+    /* background-color: white; */
+    /* Fundo branco para o conteúdo */
+    color: black;
+    /* Cor do texto dentro do conteúdo */
+    padding: 10px 20px;
+    /* Espaçamento interno do conteúdo */
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Borda arredondada para um visual mais suave */
+    /* Ajusta o tamanho do contêiner ao conteúdo */
+    /* margin-left: 10px; */
+    /* Espaçamento entre os ícones */
+    /* vertical-align: middle; */
+    /* Alinha verticalmente os ícones com o texto */
+}
+
+.fot{
+    background-color: #fff;
+    width: 300px;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
+.fot footer img{
+    width: 25px;
+    height: 25px;
+}
+
+/*#calcular {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}*/
+
+#apagarcampos {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+}
+
+#options {
+    border-radius: 500px;
+    display: flex;
+    border-color: rgb(251, 0, 0);
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-size: 18px;
+    flex-direction: row;
+    border: 1px solid #b11313;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#resultado {
+    color: #ff0707;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 35px;
+    border-radius: 6px;
+    display: none;
+    text-align: center;
+}
+
+.animated-button {
+    background-color: #4CAF50;
+    /* Cor de fundo */
+    border: none;
+    /* Sem borda */
+    color: white;
+    /* Cor do texto */
+    padding: 15px 32px;
+    /* Espaçamento interno */
+    text-align: center;
+    /* Centralizar texto */
+    text-decoration: none;
+    /* Remover sublinhado */
+    display: inline-block;
+    /* Exibição inline-block */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    margin: 10px 2px;
+    /* Margem */
+    cursor: pointer;
+    /* Cursor de ponteiro ao passar o mouse */
+    transition: all 0.3s ease;
+    /* Transição suave para todas as propriedades */
+    border-radius: 8px;
+    /* Bordas arredondadas */
+}
+
+/* Efeito ao passar o mouse */
+.animated-button:hover {
+    background-color: #45a049;
+    /* Cor de fundo ao passar o mouse */
+}
+
+/* Efeito ao clicar */
+.animated-button:active {
+    background-color: #3e8e41;
+    /* Cor de fundo ao clicar */
+    box-shadow: 0 5px #666;
+    /* Sombra ao clicar */
+    transform: translateY(4px);
+    /* Deslocar o botão para baixo */
+}
+
+/* Adicionar uma sombra padrão */
+.animated-button {
+    box-shadow: 0 4px #999;
+    /* Sombra padrão */
+}
